@@ -143,13 +143,13 @@ Compatible starting with Flarum 1.0.
 ## Installation
 
 ```sh
-composer require askvortsov/flarum-automod:*
+composer require nodeloc/flarum-automod:*
 ```
 
 ## Updating
 
 ```sh
-composer update askvortsov/flarum-automod
+composer update nodeloc/flarum-automod
 ```
 
 ## Links
