@@ -1,6 +1,6 @@
 # Auto Moderator
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/askvortsov1/flarum-auto-moderator.svg)](https://packagist.org/packages/askvortsov/flarum-auto-moderator)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/nodeloc1/flarum-auto-moderator.svg)](https://packagist.org/packages/nodeloc/flarum-auto-moderator)
 
 A [Flarum](http://flarum.org) extension.
 
@@ -144,17 +144,17 @@ Compatible starting with Flarum 1.0.
 ## Installation
 
 ```sh
-composer require askvortsov/flarum-auto-moderator:*
+composer require nodeloc/flarum-auto-moderator:*
 ```
 
 ## Updating
 
 ```sh
-composer update askvortsov/flarum-auto-moderator
+composer update nodeloc/flarum-auto-moderator
 ```
 
 ## Links
 
-- [Packagist](https://packagist.org/packages/askvortsov/flarum-auto-moderator)
-- [Github](https://github.com/askvortsov1/flarum-auto-moderator)
+- [Packagist](https://packagist.org/packages/nodeloc/flarum-auto-moderator)
+- [Github](https://github.com/nodeloc1/flarum-auto-moderator)
 - [Discuss](https://discuss.flarum.org/d/27306-flarum-automoderator)

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -19,7 +19,7 @@ class BestAnswers implements MetricDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.metric_drivers.best_answers';
+        return 'nodeloc-auto-moderator.admin.metric_drivers.best_answers';
     }
 
     public function extensionDependencies(): array

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -62,7 +62,7 @@ class UpdateCriterionController extends AbstractShowController
         $criterion = Criterion::find($id);
 
         $criterion->last_edited_by_id = $actor->id;
-        
+
         $data = Arr::get($request->getParsedBody(), 'data', []);
 
         collect(['name', 'description', 'icon', 'actions', 'metrics', 'requirements'])

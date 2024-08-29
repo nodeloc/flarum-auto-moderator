@@ -11,7 +11,7 @@ class Unsuspend implements ActionDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.action_drivers.unsuspend';
+        return 'nodeloc-auto-moderator.admin.action_drivers.unsuspend';
     }
 
     public function availableSettings(): array

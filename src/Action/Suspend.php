@@ -13,7 +13,7 @@ class Suspend implements ActionDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.action_drivers.suspend';
+        return 'nodeloc-auto-moderator.admin.action_drivers.suspend';
     }
 
     public function availableSettings(): array

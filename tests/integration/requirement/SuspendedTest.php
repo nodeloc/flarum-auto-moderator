@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -31,7 +31,7 @@ class SuspendedTest extends TestCase
         parent::setUp();
 
         $this->extension('flarum-suspend');
-        $this->extension('askvortsov-auto-moderator');
+        $this->extension('nodeloc-auto-moderator');
 
         $this->prepareDatabase([
             'users' => [

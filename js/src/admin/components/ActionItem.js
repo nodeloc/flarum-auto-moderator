@@ -27,7 +27,7 @@ export default class ActionItem extends Component {
           {actionDef.missingExt && (
             <Tooltip
               text={app.translator.trans(
-                "askvortsov-auto-moderator.admin.criterion_page.driver_missing_ext"
+                "nodeloc-auto-moderator.admin.criterion_page.driver_missing_ext"
               )}
             >
               {icon("fas fa-exclamation-triangle")}

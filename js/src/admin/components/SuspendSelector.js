@@ -13,7 +13,7 @@ export default class SuspendSelector extends Component {
             onchange={(val) => settings({ ...settings(), indefinitely: val })}
           >
             {app.translator.trans(
-              "askvortsov-auto-moderator.admin.suspend_selector.indefinitely"
+              "nodeloc-auto-moderator.admin.suspend_selector.indefinitely"
             )}
           </Switch>
         </div>
@@ -28,7 +28,7 @@ export default class SuspendSelector extends Component {
                 settings({ ...settings(), days: e.target.value })
               }
               placeholder={app.translator.trans(
-                "askvortsov-auto-moderator.admin.suspend_selector.days"
+                "nodeloc-auto-moderator.admin.suspend_selector.days"
               )}
             />
           </div>

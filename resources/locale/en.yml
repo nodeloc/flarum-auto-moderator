@@ -1,4 +1,4 @@
-askvortsov-auto-moderator:
+nodeloc-auto-moderator:
   admin:
     action_drivers:
       activate_email: Activate Email
@@ -80,7 +80,7 @@ askvortsov-auto-moderator:
 
   forum:
     edit_user:
-      managed_groups_heading: 
+      managed_groups_heading:
 
   lib:
     group_id: Group ID

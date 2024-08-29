@@ -12,7 +12,7 @@ export default class CriterionStatus extends Component {
       messages.push(
         <Alert type="success" dismissible={false}>
           {app.translator.trans(
-            "askvortsov-auto-moderator.admin.criterion_status.valid"
+            "nodeloc-auto-moderator.admin.criterion_status.valid"
           )}
         </Alert>
       );
@@ -20,7 +20,7 @@ export default class CriterionStatus extends Component {
       messages.push(
         <Alert type="error" dismissible={false}>
           {app.translator.trans(
-            "askvortsov-auto-moderator.admin.criterion_status.invalid"
+            "nodeloc-auto-moderator.admin.criterion_status.invalid"
           )}
         </Alert>
       );
@@ -31,7 +31,7 @@ export default class CriterionStatus extends Component {
       messages.push(
         <Alert type="error" dismissible={false}>
           {app.translator.trans(
-            "askvortsov-auto-moderator.admin.criterion_status.action_validation_errors"
+            "nodeloc-auto-moderator.admin.criterion_status.action_validation_errors"
           )}
           <div>
             <ol>
@@ -51,7 +51,7 @@ export default class CriterionStatus extends Component {
       messages.push(
         <Alert type="error" dismissible={false}>
           {app.translator.trans(
-            "askvortsov-auto-moderator.admin.criterion_status.requirement_validation_errors"
+            "nodeloc-auto-moderator.admin.criterion_status.requirement_validation_errors"
           )}
           <div>
             <ol>
@@ -73,7 +73,7 @@ export default class CriterionStatus extends Component {
       messages.push(
         <Alert type="danger" dismissible={false}>
           {app.translator.trans(
-            "askvortsov-auto-moderator.admin.criterion_status.no_metrics_or_reqs"
+            "nodeloc-auto-moderator.admin.criterion_status.no_metrics_or_reqs"
           )}
         </Alert>
       );
@@ -83,7 +83,7 @@ export default class CriterionStatus extends Component {
       messages.push(
         <Alert type="danger" dismissible={false}>
           {app.translator.trans(
-            "askvortsov-auto-moderator.admin.criterion_status.no_actions"
+            "nodeloc-auto-moderator.admin.criterion_status.no_actions"
           )}
         </Alert>
       );
@@ -93,7 +93,7 @@ export default class CriterionStatus extends Component {
       <div className="StatusCheck Form-group">
         <label>
           {app.translator.trans(
-            "askvortsov-auto-moderator.admin.criterion_status.heading"
+            "nodeloc-auto-moderator.admin.criterion_status.heading"
           )}
         </label>
         {messages}

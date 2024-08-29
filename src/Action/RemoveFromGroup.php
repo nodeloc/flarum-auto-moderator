@@ -11,13 +11,13 @@ class RemoveFromGroup implements ActionDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.action_drivers.remove_from_group';
+        return 'nodeloc-auto-moderator.admin.action_drivers.remove_from_group';
     }
 
     public function availableSettings(): array
     {
         return [
-            'group_id' => 'askvortsov-auto-moderator.lib.group_id'
+            'group_id' => 'nodeloc-auto-moderator.lib.group_id'
         ];
     }
 

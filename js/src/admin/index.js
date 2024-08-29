@@ -5,9 +5,9 @@ import CriterionPage from "./components/CriterionPage";
 import GroupIdSelector from "./components/GroupIdSelector";
 import SuspendSelector from "./components/SuspendSelector";
 
-app.initializers.add("askvortsov/flarum-auto-moderator", () => {
+app.initializers.add("nodeloc/flarum-auto-moderator", () => {
   app.routes.criterion = {
-    path: "/askvortsov-auto-moderator/criterion/:id",
+    path: "/nodeloc-auto-moderator/criterion/:id",
     component: CriterionPage,
   };
 
@@ -23,7 +23,7 @@ app.initializers.add("askvortsov/flarum-auto-moderator", () => {
   };
 
   app.extensionData
-    .for("askvortsov-auto-moderator")
+    .for("nodeloc-auto-moderator")
     .registerPage(AutoModeratorPage);
 
   app.route.criterion = (criterion) => {

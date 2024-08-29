@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -18,7 +18,7 @@ class DiscussionsStarted implements MetricDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.metric_drivers.discussions_started';
+        return 'nodeloc-auto-moderator.admin.metric_drivers.discussions_started';
     }
 
     public function extensionDependencies(): array

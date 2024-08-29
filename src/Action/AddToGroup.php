@@ -11,12 +11,12 @@ class AddToGroup implements ActionDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.action_drivers.add_to_group';
+        return 'nodeloc-auto-moderator.admin.action_drivers.add_to_group';
     }
 
     public function availableSettings(): array {
         return [
-            'group_id' => 'askvortsov-auto-moderator.lib.group_id'
+            'group_id' => 'nodeloc-auto-moderator.lib.group_id'
         ];
     }
 

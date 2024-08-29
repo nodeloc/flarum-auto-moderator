@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -95,7 +95,7 @@ class CriteriaCalculator
             ->filter(function (Criterion $criterion) use ($metrics) {
                 foreach ($criterion->metrics as $metricConfig) {
                     $userVal = Arr::get($metrics, $metricConfig['type']);
-                    
+
                     // Happens when criteria invalid due to missing ext dependencies
                     if ($userVal === null) return false;
                     $min = Arr::get($metricConfig, "min",  -1);
@@ -161,11 +161,11 @@ class CriteriaCalculator
 
                 return $hasTriggeredMetric || $hasTriggeredRequirement;
             });
-            
+
     }
 
     protected $criteria;
-    
+
     protected function allCriteria()
     {
         if (!$this->criteria) {

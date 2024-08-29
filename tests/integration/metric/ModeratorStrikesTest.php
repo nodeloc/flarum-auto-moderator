@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -29,7 +29,7 @@ class ModeratorStrikesTest extends TestCase
         parent::setUp();
 
         $this->extension('fof-best-answer');
-        $this->extension('askvortsov-moderator-warnings');
+        $this->extension('nodeloc-moderator-warnings');
 
         $this->prepareDatabase([
             'users' => [

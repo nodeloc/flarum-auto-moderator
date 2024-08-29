@@ -11,13 +11,13 @@ class EmailMatchesRegex implements RequirementDriverInterface
 {
 
     public function translationKey(): string {
-        return 'askvortsov-auto-moderator.admin.requirement_drivers.email_matches_regex';
+        return 'nodeloc-auto-moderator.admin.requirement_drivers.email_matches_regex';
     }
 
     public function availableSettings(): array
     {
         return [
-            'regex' => 'askvortsov-auto-moderator.admin.in_group_settings.regex'
+            'regex' => 'nodeloc-auto-moderator.admin.in_group_settings.regex'
         ];
     }
 

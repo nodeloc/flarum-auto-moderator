@@ -11,7 +11,7 @@ class EmailConfirmed implements RequirementDriverInterface
 {
 
     public function translationKey(): string {
-        return 'askvortsov-auto-moderator.admin.requirement_drivers.email_confirmed';
+        return 'nodeloc-auto-moderator.admin.requirement_drivers.email_confirmed';
     }
 
     public function availableSettings(): array

@@ -12,13 +12,13 @@ class InGroup implements RequirementDriverInterface
 {
 
     public function translationKey(): string {
-        return 'askvortsov-auto-moderator.admin.requirement_drivers.in_group';
+        return 'nodeloc-auto-moderator.admin.requirement_drivers.in_group';
     }
 
     public function availableSettings(): array
     {
         return [
-            'group_id' => 'askvortsov-auto-moderator.lib.group_id'
+            'group_id' => 'nodeloc-auto-moderator.lib.group_id'
         ];
     }
 

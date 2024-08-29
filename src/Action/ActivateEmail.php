@@ -11,7 +11,7 @@ class ActivateEmail implements ActionDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.action_drivers.activate_email';
+        return 'nodeloc-auto-moderator.admin.action_drivers.activate_email';
     }
 
     public function availableSettings(): array {

@@ -11,7 +11,7 @@ class Suspended implements RequirementDriverInterface
 {
 
     public function translationKey(): string {
-        return 'askvortsov-auto-moderator.admin.requirement_drivers.suspended';
+        return 'nodeloc-auto-moderator.admin.requirement_drivers.suspended';
     }
 
     public function availableSettings(): array

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -34,7 +34,7 @@ class SettingsInvalidTest extends TestCase
     {
         parent::setUp();
 
-        $this->extension('askvortsov-auto-moderator');
+        $this->extension('nodeloc-auto-moderator');
 
         $this->prepareDatabase([
             'users' => [
@@ -87,7 +87,7 @@ class SettingsInvalidTest extends TestCase
             (new AutoModerator())
                 ->requirementDriver('always_true', BooleanRequirement::class)
         );
-        
+
         $this->prepareDatabase([
             'criteria' => [
                 CriteriaUtils::genCriterionGroupManagement('invalid group ID', 'hello there!', [], [['type' => 'always_true', 'negated' => true, 'settings' => []]], 1)

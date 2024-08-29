@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -18,12 +18,12 @@ class ModeratorStrikes implements MetricDriverInterface
 {
     public function translationKey(): string
     {
-        return 'askvortsov-auto-moderator.admin.metric_drivers.moderator_strikes';
+        return 'nodeloc-auto-moderator.admin.metric_drivers.moderator_strikes';
     }
 
     public function extensionDependencies(): array
     {
-        return ['askvortsov-moderator-warnings'];
+        return ['nodeloc-moderator-warnings'];
     }
 
     public function eventTriggers(): array

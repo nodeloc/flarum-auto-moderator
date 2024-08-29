@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-auto-moderator
+ * This file is part of nodeloc/flarum-auto-moderator
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -27,10 +27,10 @@ interface MetricDriverInterface
 
     /**
      * A list of events that cause criteria using this event to be reevaluated.
-     * 
+     *
      * The keys should be event class names, and the values should be functions that take the event,
      * and return the user affected by the event.
-     * 
+     *
      * `LoggedIn` is automatically a trigger for all criteria.
      */
     public function eventTriggers(): array;
