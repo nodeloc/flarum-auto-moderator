@@ -4,6 +4,11 @@
 
 A [Flarum](http://flarum.org) extension.
 
+## Fixed
+
+- Can't open the edit modal even user have the permission to edit user.
+- User group will lost when edit user information.
+
 ## Core Concept
 
 The idea is simple: **When X, if Y, do Z**.
