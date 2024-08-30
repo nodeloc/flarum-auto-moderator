@@ -4,6 +4,13 @@
 
 A [Flarum](http://flarum.org) extension.
 
+## CHanged.
+
+Fix 2 issue
+
+- Can't edit user information.
+- When edit user info, all automated group will lost.
+
 ## Core Concept
 
 The core idea is as follows:
